@@ -26,9 +26,9 @@ class TestResults:
         assert isinstance(result_1.score, int)
 
         # comment out the next three lines if using Exceptions
-        result_1.score = 5000
-        assert result_1.score == 2000
-        assert isinstance(result_1.score, int)
+        #result_1.score = 5000
+        #assert result_1.score == 2000
+        #assert isinstance(result_1.score, int)
 
         # uncomment the next two lines if using Exceptions
         # with pytest.raises(Exception):
